@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+header, .home, footer {
+    background-color: rgb(47, 47, 114);
+    color: #fff;
+}
+
+#header-home {
+    font-weight: 900;
+}
+
+.home {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#img1, #album-cover {
+    background-color: #ddd;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    width: 600px;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 900;
+
+}
+
+#button-info {
+    background-color: #db5ff4;
+    color: #222;
+    border-width: 0;
+}
+
+#button-info:hover {
+    background-color: #cc20ee;
+    color: #fff;
+
+}
+
+header {
+    padding: 0 150px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#nav-links ul {
+    display: flex;
+    gap: 45px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ffffffe8;
+    color: rgb(47, 47, 114);
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+.newsletter {
+    margin: 0 30px;
+}
+
+.discography {
+    margin-bottom: 100px;
+}
+
+#header-disc {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.disc-container, .signup-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.disc-container {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#album-cover {
+    width: 175px;
+    margin: 0 auto;
+}
+
+.quote-box {
+    background-color: #eee;
+    color: #222;
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.signup-container {
+    background-color: #db5ff4;
+    border-radius: 5px;
+    padding: 30px 90px;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.signup-container #left-col {
+    max-width: 500px;
+}
+
+.signup-container #right-col {
+    align-self: center;
+    margin-left: 50px;
+}
+
+#button-signup {
+    background-color: #db5ff4;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 50px;
+}
+
+#button-signup:hover {
+    background-color: #fff;
+    color: #db5ff4;
+    border: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
