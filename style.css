@@ -11,8 +11,18 @@ header, #home, footer {
     color: #fff;
 }
 
-#header-home {
+#hero-title {
     font-weight: 900;
+    font-size: 48px;
+}
+
+#hero-text {
+    font-size: 18px;
+    color: #c7c5c5;
+}
+
+#credit-text {
+    font-size: 12px;
 }
 
 #home {
@@ -21,7 +31,7 @@ header, #home, footer {
     padding-bottom: 60px;
 }
 
-#img1, #album-cover {
+#album-cover {
     background-color: #ddd;
     color: #666;
     display: flex;
@@ -29,12 +39,10 @@ header, #home, footer {
     align-items: center;
 }
 
-#img1 {
-    width: 600px;
-    height: 300px;
-    margin-left: 40px;
-    margin-bottom: 40px;
-
+#img-rock-band {
+    max-width: 500px;
+    margin-left: 150px;
+    margin-bottom: 10px;
 }
 
 button {
@@ -45,15 +53,18 @@ button {
 }
 
 #button-info {
-    background-color: #db5ff4;
-    color: #222;
+    background-color: #cc20ee;
+    font-size: 1.2em;
+    color: #fff;
     border-width: 0;
+    margin-top: 30px;
 }
 
 #button-info:hover {
-    background-color: #cc20ee;
-    color: #fff;
-
+    font-size: 1.2em;
+    color: #cc20ee;
+    background-color: #fff;
+    transition: 0.2s;
 }
 
 header {
@@ -156,6 +167,12 @@ a:hover {
     padding: 80px 40px;
 }
 
+blockquote {
+    margin: 0 auto;
+    width: 800px;
+    font-size: 26px;
+}
+
 .signup-container {
     background-color: #db5ff4;
     border-radius: 5px;
@@ -187,8 +204,7 @@ a:hover {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 40px;
 
 }
