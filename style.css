@@ -92,15 +92,43 @@ a:hover {
     margin: 0 30px;
 }
 
-#discography {
-    margin-bottom: 100px;
-}
-
 #header-disc {
     font-size: 36px;
     font-weight: 500;
     text-align: center;
     margin: 80px 0;
+}
+
+#discography {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#art-credit-container {
+    background-color: rgb(47, 47, 114);
+    width: 200px;
+    margin: 40px auto 60px auto;
+    border-radius: 5px;
+
+}
+
+#art-credit {
+    padding: 20px 0;
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+#art-credit a {
+    color: #fff;
+}
+
+#art-credit a:hover {
+    color: rgb(47, 47, 114);
+    border: 1px solid rgb(47, 47, 114);
+    background-color: #fff;
 }
 
 .disc-container, .signup-container {
