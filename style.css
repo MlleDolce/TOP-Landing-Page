@@ -146,6 +146,7 @@ a:hover {
 #album-cover {
     width: 175px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .quote-box {
